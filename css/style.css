@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.body-home, .body-login {
+	background: url(../img/cns.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+body {
+	background: #d0ecbf
+}
+.black-fill {
+	background: rgba(255, 255, 255, 0.212);
+	min-height: 100vh;
+}
+#homeNav {
+	background: rgba(19, 18, 18, 0.651) !important;
+}
+.welcome-text {
+	min-height: 80vh;
+}
+.welcome-text img {
+	width: 150px;
+}
+.welcome-text h4 {
+	color: #2a332a;
+	font-size: 51px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	text-align: center;
+}
+.welcome-text p {
+	color: #222;
+	background: rgba(255,255,255, 0.5);
+	padding: 5px;
+	border-radius: 4px;
+}
+
+#contact {
+	min-height: 100vh;
+}
+#contact form{
+	max-width: 600px;
+	width: 90%;
+	background: rgba(255,255,255, 0.5);
+	padding: 20px;
+	border-radius: 5px;
+}
+#contact form h3 {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+}
+textarea {
+	resize: none;
+}
+
+.login {
+	max-width: 500px;
+	width: 90%;
+	background: rgba(61, 61, 61, 0.5);
+	padding: 10px;
+	border-radius: 10px;
+}
+.login h3{
+	text-align: center;
+	font-size: 50px;
+}
+.w-450 {
+	width: 450px;
+}
+.n-table {
+	max-width: 800px;
+}
+.form-w {
+	max-width: 600px;
+	width: 100%;
+}
